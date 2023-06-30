@@ -23,7 +23,7 @@ const onImgClick = galleryItems.reduce(
 gallery.insertAdjacentHTML('beforeend', onImgClick)
 
 
-var lightbox = new SimpleLightbox('.gallery a', {
+const lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   animationSpeed: 250,
 });
